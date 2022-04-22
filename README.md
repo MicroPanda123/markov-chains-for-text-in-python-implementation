@@ -33,7 +33,7 @@ model_generator
     ...
 }
 ```
-Numbers 0.1, 0.2, 0.3, 0.4... represent probabilities of certain word happening after that word, those aren't absolute probabilities, each position is probability + sum of previous positions. So if we want to get absolute probability of certain word, we take it's value, and subtract it from previous one's, for e.q. we want to know possibility of third word from our example, so we take 0.3, and subtract it from 0.2, so 0.3 - 0.2 = 0.1, and boom, our absolute possibility of third option is 0.1 (or 10%).
+Numbers 0.1, 0.2, 0.3, 0.4... represent probabilities of certain word happening after that word, those aren't absolute probabilities, each position is probability + sum of previous positions.
 
 "next_word_*" represents any word that generator saw is possible after given piece of text, so for example if we give it sentence "This thing sucks" it will return:
 ```
