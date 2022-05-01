@@ -6,7 +6,7 @@ Code is big messy spaghetti, but it was put together in like an hour (and most o
 Changelog
 ------
 
-From now on (23rd of April 2022) this thing doesn't relay on NumPy for number generation anymore. This means it also won't need as much RAM.(Previous version hit 10 GB of RAM usage with 177 MB model yikes)
+From now on (23rd of April 2022) this thing doesn't relay on NumPy for number generation anymore. This means it also won't need as much RAM (Previous version hit 10 GB of RAM usage with 177 MB model yikes), and will be a lot faster.
 
 model_generator
 ------
