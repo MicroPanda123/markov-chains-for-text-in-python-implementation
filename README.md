@@ -3,9 +3,12 @@
 This code sucks, but it works I guess. It generates markov chain from text file you give it.
 Code is big messy spaghetti, but it was put together in like an hour (and most of that time was messing around).
 
+Rust implementation
+------
+There is new [Rust implementation](https://github.com/MicroPanda123/markov-chains-for-text-in-rust-implementation). Currently it's only model_user that uses models generated in Python, but I am planning on rewriting model generator in Rust as well.
+
 Changelog
 ------
-
 From now on (23rd of April 2022) this thing doesn't relay on NumPy for number generation anymore. This means it also won't need as much RAM (Previous version hit 10 GB of RAM usage with 177 MB model yikes), and will be a lot faster.
 
 model_generator
