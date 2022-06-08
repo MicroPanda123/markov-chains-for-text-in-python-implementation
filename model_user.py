@@ -17,7 +17,7 @@ def search(model, num):
             top = closest - 1
         else:
             break
-    
+
     return bottom
 
 
